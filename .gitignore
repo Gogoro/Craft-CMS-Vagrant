@@ -1,0 +1,4 @@
+craft/
+public/
+.vagrant/
+.DS_Store
