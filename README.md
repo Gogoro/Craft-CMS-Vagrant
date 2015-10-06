@@ -1,8 +1,7 @@
-
 Craft CMS Startingpoint
 ==========
 
-1. Drag and drop your craft installation folders (`craft` and `public`) into the root of this repo
+1. Drag and drop your craft installation folders `craft` and `public` into the root of this repo
 
 2. Update your `craft/config/db.php` file to mach this:
 
