@@ -2,12 +2,11 @@
 Craft CMS Startingpoint
 ==========
 
-1. Drag and drop your craft installation into this folder (`craft` and `public`)
+1. Drag and drop your craft installation folders (`craft` and `public`) into the root of this repo
 
 2. Update your `craft/config/db.php` file to mach this:
 
 ```
-// The database server name or IP address. Usually this is 'localhost' or '127.0.0.1'.
 	'server' => 'localhost',
 	'user' => 'root',
 	'password' => 'foobar',
