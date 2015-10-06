@@ -1,5 +1,3 @@
-craft/
-public/
 .vagrant
 node_modules/
 .DS_Store
