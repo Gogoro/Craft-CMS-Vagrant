@@ -29,3 +29,15 @@ Craft CMS Startingpoint
 7. Run `npm install && gulp`
 
 8. You should be readdy to go!
+
+
+### Feedback & Bugs
+
+We would love your feedback on how this could be improved. Send us a message or a pull request with updates so that we can review it. 
+
+Also please report any bugs you may experience so that we can remove them once and for all.
+
+
+---
+
+Credits: [Ole Andreas Jørnsen herland](https://github.com/Gogoro) & [Stian Grytøyr](https://github.com/stiang)
