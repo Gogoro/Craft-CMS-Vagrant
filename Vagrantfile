@@ -14,10 +14,8 @@ Vagrant.configure(2) do |config|
     v.memory = ram
   end
 
-  config.vm.synced_folder "", "/dev/vagrant"
-  # ,
-  #   :nfs => true,
-  #   :mount_options => ["dmode=775","fmode=664"]
+  config.vm.synced_folder "", "/dev/vagrant", :type => :nfs,
+    :mount_options => ['nolock,vers=3,udp,noatime,actimeo=1']  
 
   config.vm.provision :shell, path: "bin/bootstrap_server.sh"
 

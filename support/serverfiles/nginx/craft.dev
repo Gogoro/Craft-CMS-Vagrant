@@ -4,7 +4,7 @@ server {
   charset utf8;
   index index.php index.html;
 
-  root /vagrant/public;
+  root /dev/vagrant/public;
 
   error_log /tmp/craft.error.log;
   access_log /tmp/carft.access.log;
